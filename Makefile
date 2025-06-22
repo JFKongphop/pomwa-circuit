@@ -25,3 +25,8 @@ c-full:
 clear-proof:
 	rm -rf -r proof-source/*
 
+tree:
+	node src/tree.js
+
+index:
+	node src/index.js

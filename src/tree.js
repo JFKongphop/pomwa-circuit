@@ -27,5 +27,7 @@ const { toBytes32 } = require('./utils/bytesConverter');
     zeroElement: 0n
   });
 
-  console.log(tree.proof(leaves[0]))
+  console.log(tree)
+
+  // console.log(tree.proof(leaves[0]))
 })();
