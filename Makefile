@@ -20,7 +20,7 @@ gen-con:
 	snarkjs zkey export solidityverifier proof-source/withdraw.zkey contracts/Groth16Verifier.sol
 
 c-full:
-	make c-com && make c-p1 && make c-p2 && make c-final && make zkey && make vkey
+	make c-com && make c-p1 && make c-p2 && make c-final && make zkey && make vkey && make gen-con
 
 clear-proof:
 	rm -rf -r proof-source/*
