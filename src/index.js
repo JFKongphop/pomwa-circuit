@@ -4,7 +4,6 @@ const path = require('path');
 const snarkjs = require('snarkjs');
 const circomlibjs = require('circomlibjs');
 const { MerkleTree } = require('fixed-merkle-tree');
-const { toBytes32, bytes32ToBigInt } = require('./utils/bytesConverter');
 
 const outPath = path.join(__dirname, '..');
 const TREE_LEVELS = 2;
